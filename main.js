@@ -21,16 +21,16 @@ function changeDirection(event) {
 
 function drive() {
   if ($car.className === 'east') {
-    $car.style.left = ($car.x + 3) + 'px';
+    $car.style.left = ($car.x + 4) + 'px';
   }
   if ($car.className === 'west') {
-    $car.style.left = ($car.x - 3) + 'px';
+    $car.style.left = ($car.x - 4) + 'px';
   }
   if ($car.className === 'south') {
-    $car.style.top = ($car.y + 3) + 'px';
+    $car.style.top = ($car.y + 4) + 'px';
   }
   if ($car.className === 'north') {
-    $car.style.top = ($car.y - 3) + 'px';
+    $car.style.top = ($car.y - 4) + 'px';
   }
 }
 
